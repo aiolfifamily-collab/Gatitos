@@ -49,6 +49,8 @@ section{
 #imagenGato{
     width: 500px; 
     height: 500px; 
+    max-width: 700px;
+    max-height: 700px;
     object-fit: cover; 
     border-radius: 5px; 
     border: 3px solid black;
@@ -72,7 +74,7 @@ footer{
 }
 
 .info-gatos{
-    max-width: 800px;
+    max-width: 700px;
     margin: 40px auto;
     padding: 20px;
     background: rgba(0, 0, 0, 0.3);
